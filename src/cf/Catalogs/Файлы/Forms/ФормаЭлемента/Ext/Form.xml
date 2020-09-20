@@ -23,6 +23,13 @@
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="Автор" id="15">
+			<DataPath>Объект.Автор</DataPath>
+			<DropListButton>false</DropListButton>
+			<OpenButton>false</OpenButton>
+			<ContextMenu name="АвторКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="17"/>
+		</InputField>
 		<Button name="ЗагрузитьФайл" id="10">
 			<Type>UsualButton</Type>
 			<CommandName>Form.Command.ЗагрузитьФайл</CommandName>
