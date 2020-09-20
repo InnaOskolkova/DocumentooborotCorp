@@ -180,7 +180,7 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>DontUse</ModalityUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
 			<SynchronousPlatformExtensionAndAddInCallUseMode>DontUse</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_17</CompatibilityMode>
@@ -199,6 +199,7 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
+			<Catalog>Файлы</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
