@@ -189,7 +189,8 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
-			<Role>ПолныеПрава</Role>
+			<Role>Администратор</Role>
+			<Role>Пользователь</Role>
 			<CommonModule>ОбщийМодульСистема</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
