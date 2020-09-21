@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.10">
+	<Item id="22e17f34-cb63-44b6-ae6b-ba6f485db1ac">
+		<Name>Акт</Name>
+		<Code>000000005</Code>
+		<Description>Акт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="238c09fc-2c23-436f-bc29-3f5129ca2233">
+		<Name>Докладная</Name>
+		<Code>000000003</Code>
+		<Description>Докладная</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d53421c0-c269-49c0-9ac9-9ea9eef9f1ff">
+		<Name>Заявление</Name>
+		<Code>000000001</Code>
+		<Description>Заявление</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a40191cc-ceff-472f-98d2-61a61dcb86a7">
+		<Name>Отчёт</Name>
+		<Code>000000004</Code>
+		<Description>Отчёт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1860c097-ca3c-4f4d-9833-d1f7286489db">
+		<Name>ОфициальноеПисьмо</Name>
+		<Code>000000006</Code>
+		<Description>Официальное письмо</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="de138a67-78ae-4ceb-9a60-12da3b179e5a">
+		<Name>СлужебныеЗаписки</Name>
+		<Code>000000007</Code>
+		<Description>Служебные записки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9f637023-78e6-4875-a581-33ad4c526530">
+		<Name>Справка</Name>
+		<Code>000000002</Code>
+		<Description>Справка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
