@@ -191,6 +191,10 @@
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>Администратор</Role>
 			<Role>Пользователь</Role>
+			<Role>ЧтениеДокументов</Role>
+			<Role>ЧтениеКонтрагентов</Role>
+			<Role>ИзменениеДокументов</Role>
+			<Role>ИзменениеКонтрагентов</Role>
 			<CommonModule>ОбщийМодульСистема</CommonModule>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
