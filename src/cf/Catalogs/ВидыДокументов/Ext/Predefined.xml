@@ -6,6 +6,12 @@
 		<Description>Акт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="5b02578d-fe37-4813-9515-7ccb14ff435c">
+		<Name>Договор</Name>
+		<Code>000000008</Code>
+		<Description>Договор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="238c09fc-2c23-436f-bc29-3f5129ca2233">
 		<Name>Докладная</Name>
 		<Code>000000003</Code>
