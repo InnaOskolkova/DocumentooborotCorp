@@ -208,6 +208,7 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
