@@ -28,6 +28,7 @@
 			<ContextMenu name="ВидКонтекстноеМеню" id="23"/>
 			<ExtendedTooltip name="ВидРасширеннаяПодсказка" id="24"/>
 			<Events>
+				<Event name="OnChange">ВидПриИзменении</Event>
 				<Event name="ChoiceProcessing">ВидОбработкаВыбора</Event>
 			</Events>
 		</InputField>
@@ -40,12 +41,14 @@
 		<InputField name="Контрагент" id="13">
 			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoMarkIncomplete>false</AutoMarkIncomplete>
 			<ContextMenu name="КонтрагентКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="15"/>
 		</InputField>
 		<InputField name="КонтактноеЛицо" id="16">
 			<DataPath>Объект.КонтактноеЛицо</DataPath>
 			<EditMode>EnterOnInput</EditMode>
+			<AutoMarkIncomplete>false</AutoMarkIncomplete>
 			<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="18"/>
 		</InputField>

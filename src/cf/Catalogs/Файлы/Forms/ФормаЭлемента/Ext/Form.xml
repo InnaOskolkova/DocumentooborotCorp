@@ -27,6 +27,7 @@
 			<DataPath>Объект.Автор</DataPath>
 			<DropListButton>false</DropListButton>
 			<OpenButton>false</OpenButton>
+			<TextEdit>false</TextEdit>
 			<ContextMenu name="АвторКонтекстноеМеню" id="16"/>
 			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="17"/>
 		</InputField>
@@ -37,8 +38,21 @@
 		</Button>
 		<InputField name="ИмяФайла" id="12">
 			<DataPath>Объект.ИмяФайла</DataPath>
+			<TextEdit>false</TextEdit>
 			<ContextMenu name="ИмяФайлаКонтекстноеМеню" id="13"/>
 			<ExtendedTooltip name="ИмяФайлаРасширеннаяПодсказка" id="14"/>
+		</InputField>
+		<InputField name="ПутьДоФайла" id="21">
+			<DataPath>Объект.ПутьДоФайла</DataPath>
+			<TextEdit>false</TextEdit>
+			<ContextMenu name="ПутьДоФайлаКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ПутьДоФайлаРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="Содержание" id="18">
+			<DataPath>Объект.Содержание</DataPath>
+			<TextEdit>false</TextEdit>
+			<ContextMenu name="СодержаниеКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="СодержаниеРасширеннаяПодсказка" id="20"/>
 		</InputField>
 		<PictureField name="ФайлНаФорме" id="7">
 			<DataPath>ФайлНаФорме</DataPath>

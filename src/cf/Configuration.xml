@@ -196,6 +196,8 @@
 			<Role>ИзменениеДокументов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
 			<CommonModule>ОбщийМодульСистема</CommonModule>
+			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
+			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
