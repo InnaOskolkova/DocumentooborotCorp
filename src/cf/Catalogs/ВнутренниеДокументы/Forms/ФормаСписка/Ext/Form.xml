@@ -103,6 +103,11 @@
 					<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="32"/>
 					<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="33"/>
 				</LabelField>
+				<LabelField name="Согласован" id="37">
+					<DataPath>Список.Согласован</DataPath>
+					<ContextMenu name="СогласованКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="39"/>
+				</LabelField>
 			</ChildItems>
 		</Table>
 	</ChildItems>

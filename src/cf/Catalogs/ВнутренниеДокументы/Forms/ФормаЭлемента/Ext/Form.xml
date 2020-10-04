@@ -3,6 +3,9 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
 			<DataPath>Объект.Code</DataPath>
@@ -51,6 +54,15 @@
 			<AutoMarkIncomplete>false</AutoMarkIncomplete>
 			<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Согласован" id="44">
+			<DataPath>Объект.Согласован</DataPath>
+			<DropListButton>true</DropListButton>
+			<ContextMenu name="СогласованКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="46"/>
+			<Events>
+				<Event name="Opening">СогласованОткрытие</Event>
+			</Events>
 		</InputField>
 		<InputField name="Комментарий" id="19">
 			<DataPath>Объект.Комментарий</DataPath>
