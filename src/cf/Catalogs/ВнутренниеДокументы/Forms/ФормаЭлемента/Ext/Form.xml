@@ -41,6 +41,11 @@
 			<ContextMenu name="ОрганизацияКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="ИННОрганизации" id="47">
+			<DataPath>Объект.ИННОрганизации</DataPath>
+			<ContextMenu name="ИННОрганизацииКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="ИННОрганизацииРасширеннаяПодсказка" id="49"/>
+		</InputField>
 		<InputField name="Контрагент" id="13">
 			<DataPath>Объект.Контрагент</DataPath>
 			<EditMode>EnterOnInput</EditMode>

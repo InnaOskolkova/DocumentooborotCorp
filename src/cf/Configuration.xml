@@ -210,6 +210,7 @@
 			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Catalog>ИННОгранизаций</Catalog>
 			<Enum>СогласованнсотьДокументов</Enum>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
