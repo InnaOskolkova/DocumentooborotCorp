@@ -429,7 +429,7 @@
 							</Synonym>
 							<Comment/>
 							<Type>
-								<v8:Type>cfg:DocumentRef.ФактическиеРасходы</v8:Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.СтатьиЗатратПоПроектам</v8:Type>
 							</Type>
 							<PasswordMode>false</PasswordMode>
 							<Format/>
@@ -482,7 +482,7 @@
 							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
 							<ChoiceParameterLinks>
 								<xr:Link>
-									<xr:Name>Статья</xr:Name>
+									<xr:Name>Отбор.Владелец</xr:Name>
 									<xr:DataPath xsi:type="xs:string">Document.ФактическиеРасходы.TabularSection.СтатьиЗатрат.Attribute.Статья</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>

@@ -226,6 +226,7 @@
 			<Report>ПланФактПроекта</Report>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
+			<AccumulationRegister>Доходы</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>Доходы</ChartOfCharacteristicTypes>
 		</ChildObjects>

@@ -17,6 +17,7 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ФИОФизическихЛиц</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ЗатратыПоПроектам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Доходы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
