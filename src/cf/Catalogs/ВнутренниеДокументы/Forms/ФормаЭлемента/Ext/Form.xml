@@ -5,6 +5,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
@@ -59,6 +60,11 @@
 			<AutoMarkIncomplete>false</AutoMarkIncomplete>
 			<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Подразделение" id="50">
+			<DataPath>Объект.Подразделение</DataPath>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="52"/>
 		</InputField>
 		<InputField name="Согласован" id="44">
 			<DataPath>Объект.Согласован</DataPath>

@@ -188,6 +188,10 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>СправочникиИПВХ</Subsystem>
+			<Subsystem>Документы</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>РегистрыСведенийИНакопления</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>РазделительЗначение</SessionParameter>
 			<SessionParameter>РазделительИспользование</SessionParameter>
@@ -198,7 +202,6 @@
 			<Role>ИзменениеДокументов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
 			<Role>СогласованиеДокументов</Role>
-			<Role>РуководительПодразделенияДокументы</Role>
 			<CommonModule>ОбщийМодульСистема</CommonModule>
 			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
@@ -215,13 +218,16 @@
 			<Catalog>ВидыДокументов</Catalog>
 			<Catalog>ИННОгранизаций</Catalog>
 			<Catalog>Проекты</Catalog>
+			<Catalog>ДополнительныеЗначения</Catalog>
 			<Document>ПлановыеЗатратыПроекта</Document>
 			<Document>ФактическиеРасходы</Document>
+			<Document>Доходы</Document>
 			<Enum>СогласованнсотьДокументов</Enum>
 			<Report>ПланФактПроекта</Report>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>Доходы</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
