@@ -189,7 +189,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>СправочникиИПВХ</Subsystem>
-			<Subsystem>Документы</Subsystem>
+			<Subsystem>ДокументыИЗадачи</Subsystem>
 			<Subsystem>Отчеты</Subsystem>
 			<Subsystem>РегистрыСведенийИНакопления</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
@@ -229,6 +229,7 @@
 			<AccumulationRegister>Доходы</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>Доходы</ChartOfCharacteristicTypes>
+			<Task>ЗадачаПользователя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
