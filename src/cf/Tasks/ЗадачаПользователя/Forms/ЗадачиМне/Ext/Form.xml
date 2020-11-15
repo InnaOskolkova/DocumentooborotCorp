@@ -13,6 +13,7 @@
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeLoadDataFromSettingsAtServer">ПередЗагрузкойДанныхИзНастроекНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
@@ -95,6 +96,16 @@
 					<DataPath>Список.Дата</DataPath>
 					<ContextMenu name="ДатаКонтекстноеМеню" id="23"/>
 					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="СсылкаДатаВыполнения" id="30">
+					<DataPath>Список.Ссылка.ДатаВыполнения</DataPath>
+					<ContextMenu name="СсылкаДатаВыполненияКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СсылкаДатаВыполненияРасширеннаяПодсказка" id="32"/>
+				</LabelField>
+				<LabelField name="СсылкаДатаФактическогоВыполнения" id="33">
+					<DataPath>Список.Ссылка.ДатаФактическогоВыполнения</DataPath>
+					<ContextMenu name="СсылкаДатаФактическогоВыполненияКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="СсылкаДатаФактическогоВыполненияРасширеннаяПодсказка" id="35"/>
 				</LabelField>
 				<CheckBoxField name="Выполнена" id="25">
 					<DataPath>Список.Выполнена</DataPath>
