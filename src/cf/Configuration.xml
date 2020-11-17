@@ -225,10 +225,12 @@
 			<Enum>СогласованнсотьДокументов</Enum>
 			<Report>ПланФактПроекта</Report>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
+			<InformationRegister>Адресация</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<AccumulationRegister>Доходы</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>Доходы</ChartOfCharacteristicTypes>
+			<BusinessProcess>Исполнение</BusinessProcess>
 			<Task>ЗадачаПользователя</Task>
 		</ChildObjects>
 	</Configuration>
