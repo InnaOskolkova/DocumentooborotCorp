@@ -14,6 +14,12 @@
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
+		<InputField name="Автор" id="19">
+			<DataPath>Объект.Автор</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="АвторКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="АвторРасширеннаяПодсказка" id="21"/>
+		</InputField>
 		<InputField name="Исполнитель" id="10">
 			<DataPath>Объект.Исполнитель</DataPath>
 			<EditMode>EnterOnInput</EditMode>

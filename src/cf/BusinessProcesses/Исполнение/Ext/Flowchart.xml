@@ -139,8 +139,8 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks">ВыполнитьПередСозданиемЗадач</Event>
 				<Event name="OnCreateTask">ВыполнитьПриСозданииЗадач</Event>
-				<Event name="OnExecute"/>
-				<Event name="CheckExecutionProcessing"/>
+				<Event name="OnExecute">ВыполнитьПриВыполнении</Event>
+				<Event name="CheckExecutionProcessing">ВыполнитьОбработкаПроверкиВыполнения</Event>
 				<Event name="BeforeExecute">ВыполнитьПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
@@ -400,8 +400,8 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks">ВыполнитьПередСозданиемЗадач</Event>
 				<Event name="OnCreateTask">ВыполнитьПриСозданииЗадач</Event>
-				<Event name="OnExecute"/>
-				<Event name="CheckExecutionProcessing"/>
+				<Event name="OnExecute">ВыполнитьПриВыполнении</Event>
+				<Event name="CheckExecutionProcessing">ПроверкаОбработкаПроверкиВыполнения</Event>
 				<Event name="BeforeExecute">ВыполнитьПередВыполнением</Event>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>

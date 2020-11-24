@@ -4,7 +4,6 @@
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
-		<Event name="OnOpen">ПриОткрытии</Event>
 		<Event name="BeforeWrite">ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
@@ -81,6 +80,60 @@
 				<Event name="OnChange">ВыполненаПриИзменении</Event>
 			</Events>
 		</CheckBoxField>
+		<InputField name="Комментарий" id="37">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<Table name="ИсторияЗадач" id="40">
+			<ReadOnly>true</ReadOnly>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ИсторияЗадач</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИсторияЗадачКонтекстноеМеню" id="41"/>
+			<AutoCommandBar name="ИсторияЗадачКоманднаяПанель" id="42"/>
+			<ExtendedTooltip name="ИсторияЗадачРасширеннаяПодсказка" id="43"/>
+			<SearchStringAddition name="ИсторияЗадачСтрокаПоиска" id="44">
+				<AdditionSource>
+					<Item>ИсторияЗадач</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияЗадачСтрокаПоискаКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="ИсторияЗадачСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИсторияЗадачСостояниеПросмотра" id="47">
+				<AdditionSource>
+					<Item>ИсторияЗадач</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияЗадачСостояниеПросмотраКонтекстноеМеню" id="48"/>
+				<ExtendedTooltip name="ИсторияЗадачСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИсторияЗадачУправлениеПоиском" id="50">
+				<AdditionSource>
+					<Item>ИсторияЗадач</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияЗадачУправлениеПоискомКонтекстноеМеню" id="51"/>
+				<ExtendedTooltip name="ИсторияЗадачУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ИсторияЗадачНомерСтроки" id="53">
+					<DataPath>Объект.ИсторияЗадач.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсторияЗадачНомерСтрокиКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ИсторияЗадачНомерСтрокиРасширеннаяПодсказка" id="55"/>
+				</LabelField>
+				<InputField name="ИсторияЗадачЗадача" id="56">
+					<DataPath>Объект.ИсторияЗадач.Задача</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсторияЗадачЗадачаКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ИсторияЗадачЗадачаРасширеннаяПодсказка" id="58"/>
+				</InputField>
+			</ChildItems>
+		</Table>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
