@@ -5,6 +5,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -19,6 +20,12 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="БизнесПроцесс" id="34">
+			<DataPath>Объект.BusinessProcess</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="БизнесПроцессКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="БизнесПроцессРасширеннаяПодсказка" id="36"/>
 		</InputField>
 		<InputField name="АвторЗадачи" id="28">
 			<DataPath>Объект.АвторЗадачи</DataPath>
