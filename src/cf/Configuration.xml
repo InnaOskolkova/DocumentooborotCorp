@@ -204,7 +204,10 @@
 			<Role>СогласованиеДокументов</Role>
 			<CommonModule>ОбщийМодульСистема</CommonModule>
 			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
+			<CommonModule>Обмены</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
+			<ExchangePlan>Риб</ExchangePlan>
+			<EventSubscription>ПриЗаписиСправочника</EventSubscription>
 			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
