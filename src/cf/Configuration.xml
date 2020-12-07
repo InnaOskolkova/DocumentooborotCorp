@@ -190,7 +190,7 @@
 			<Language>Русский</Language>
 			<Subsystem>СправочникиИПВХ</Subsystem>
 			<Subsystem>ДокументыИЗадачи</Subsystem>
-			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>ОтчетыИОбработки</Subsystem>
 			<Subsystem>РегистрыСведенийИНакопления</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>РазделительЗначение</SessionParameter>
@@ -207,6 +207,8 @@
 			<CommonModule>Обмены</CommonModule>
 			<CommonAttribute>Разделитель</CommonAttribute>
 			<ExchangePlan>Риб</ExchangePlan>
+			<ExchangePlan>ОбменСБухгалтерией</ExchangePlan>
+			<HTTPService>Check</HTTPService>
 			<EventSubscription>ПриЗаписиСправочника</EventSubscription>
 			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
@@ -227,6 +229,7 @@
 			<Document>Доходы</Document>
 			<Enum>СогласованнсотьДокументов</Enum>
 			<Report>ПланФактПроекта</Report>
+			<DataProcessor>ПроверкаСоединения</DataProcessor>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 			<InformationRegister>Адресация</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>

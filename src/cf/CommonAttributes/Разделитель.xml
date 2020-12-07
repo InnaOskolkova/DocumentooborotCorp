@@ -61,6 +61,16 @@
 					<xr:ConditionalSeparation/>
 				</xr:Item>
 				<xr:Item>
+					<xr:Metadata>ExchangePlan.Риб</xr:Metadata>
+					<xr:Use>Use</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+				<xr:Item>
+					<xr:Metadata>ExchangePlan.ОбменСБухгалтерией</xr:Metadata>
+					<xr:Use>Use</xr:Use>
+					<xr:ConditionalSeparation/>
+				</xr:Item>
+				<xr:Item>
 					<xr:Metadata>Task.ЗадачаПользователя</xr:Metadata>
 					<xr:Use>Use</xr:Use>
 					<xr:ConditionalSeparation/>
@@ -161,7 +171,7 @@
 					<xr:ConditionalSeparation/>
 				</xr:Item>
 			</Content>
-			<AutoUse>DontUse</AutoUse>
+			<AutoUse>Use</AutoUse>
 			<DataSeparation>Separate</DataSeparation>
 			<SeparatedDataUse>Independently</SeparatedDataUse>
 			<DataSeparationValue>SessionParameter.РазделительЗначение</DataSeparationValue>
