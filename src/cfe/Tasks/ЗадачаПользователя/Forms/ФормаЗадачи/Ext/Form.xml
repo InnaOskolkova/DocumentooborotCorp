@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Height>100</Height>
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="БизнесПроцесс" id="34">
+			<DataPath>Объект.BusinessProcess</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="БизнесПроцессКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="БизнесПроцессРасширеннаяПодсказка" id="36"/>
+		</InputField>
+		<InputField name="АвторЗадачи" id="28">
+			<DataPath>Объект.АвторЗадачи</DataPath>
+			<ContextMenu name="АвторЗадачиКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="АвторЗадачиРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<InputField name="Дата" id="7">
+			<DataPath>Объект.Date</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата создания</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ДатаВыполнения" id="16">
+			<DataPath>Объект.ДатаВыполнения</DataPath>
+			<ContextMenu name="ДатаВыполненияКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ДатаВыполненияРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="ДатаФактическогоВыполнения" id="19">
+			<DataPath>Объект.ДатаФактическогоВыполнения</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ДатаФактическогоВыполненияКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ДатаФактическогоВыполненияРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="Пользователь" id="10">
+			<DataPath>Объект.Пользователь</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ПользовательКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ПользовательРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ФактическийПользователь" id="31">
+			<DataPath>Объект.ФактическийПользователь</DataPath>
+			<ContextMenu name="ФактическийПользовательКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="ФактическийПользовательРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<InputField name="Подразделение" id="22">
+			<DataPath>Объект.Подразделение</DataPath>
+			<ContextMenu name="ПодразделениеКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ПодразделениеРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<CheckBoxField name="Выполнена" id="13">
+			<DataPath>Объект.Executed</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ВыполненаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ВыполненаРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">ВыполненаПриИзменении</Event>
+			</Events>
+		</CheckBoxField>
+		<InputField name="Комментарий" id="37">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<Table name="ИсторияЗадач" id="40">
+			<ReadOnly>true</ReadOnly>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ИсторияЗадач</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ИсторияЗадачКонтекстноеМеню" id="41"/>
+			<AutoCommandBar name="ИсторияЗадачКоманднаяПанель" id="42"/>
+			<ExtendedTooltip name="ИсторияЗадачРасширеннаяПодсказка" id="43"/>
+			<SearchStringAddition name="ИсторияЗадачСтрокаПоиска" id="44">
+				<AdditionSource>
+					<Item>ИсторияЗадач</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияЗадачСтрокаПоискаКонтекстноеМеню" id="45"/>
+				<ExtendedTooltip name="ИсторияЗадачСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ИсторияЗадачСостояниеПросмотра" id="47">
+				<AdditionSource>
+					<Item>ИсторияЗадач</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияЗадачСостояниеПросмотраКонтекстноеМеню" id="48"/>
+				<ExtendedTooltip name="ИсторияЗадачСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ИсторияЗадачУправлениеПоиском" id="50">
+				<AdditionSource>
+					<Item>ИсторияЗадач</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ИсторияЗадачУправлениеПоискомКонтекстноеМеню" id="51"/>
+				<ExtendedTooltip name="ИсторияЗадачУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ИсторияЗадачНомерСтроки" id="53">
+					<DataPath>Объект.ИсторияЗадач.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсторияЗадачНомерСтрокиКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ИсторияЗадачНомерСтрокиРасширеннаяПодсказка" id="55"/>
+				</LabelField>
+				<InputField name="ИсторияЗадачЗадача" id="56">
+					<DataPath>Объект.ИсторияЗадач.Задача</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ИсторияЗадачЗадачаКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ИсторияЗадачЗадачаРасширеннаяПодсказка" id="58"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:TaskObject.ЗадачаПользователя</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
