@@ -13,17 +13,11 @@
 			<ContextMenu name="АдресКонтекстноеМеню" id="10"/>
 			<ExtendedTooltip name="АдресРасширеннаяПодсказка" id="11"/>
 		</InputField>
-		<HTMLDocumentField name="Страница" id="12">
-			<DataPath>Адрес</DataPath>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Страница</v8:content>
-				</v8:item>
-			</Title>
-			<ContextMenu name="СтраницаКонтекстноеМеню" id="13"/>
-			<ExtendedTooltip name="СтраницаРасширеннаяПодсказка" id="14"/>
-		</HTMLDocumentField>
+		<Button name="ПроверитьСоединение" id="12">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ПроверитьСоединение</CommandName>
+			<ExtendedTooltip name="ПроверитьСоединениеРасширеннаяПодсказка" id="13"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -48,4 +42,21 @@
 			</Type>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПроверитьСоединение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Проверить соединение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьОтвет</Action>
+		</Command>
+	</Commands>
 </Form>
